@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <header>
+            <h1>THE WALKING DEAD</h1>
+          </header>
+          <nav>
+            <div class="caja1">
+              <a href="index.html">Inicio</a>
+            </div>
+            <div class="caja1">
+              <a href="serie.html">Serie</a>
+            </div>
+            <div class="caja1">
+              <a href="cv.html">CV</a>
+            </div>
+            <div class="caja1">
+              <a href="formulario.html">Formulario</a>
+            </div>
+            <div class="caja1">
+              <a href="video.html">Video</a>
+            </div>
+          </nav>
+          <div class="caja2">
+            <img src="./foto.jfif" alt="foto" class="imagen1">
+          </div>
+      <div class="caja3">
+        <h1>Formulario sobre WALKING DEAD</h1>
+        <form action="procesarforumlario.php" method="get"></form>
+        <fieldset>
+            <label for="nombre1">Nombre</label>
+            <input type="text" name="nombre" id="nombre1" size="40"></p>
+            <p>Apellidos: <input type="text" name="apellidos" size="40"></p>
+            <p>Año de nacimiento: <input type="number" name="nacido" min="1900" max="2022"></p>
+            <p>Email: <input type="email" name="email" size="40" required="" placeholder="usuario@domio"></p>
+            <p>Sexo:
+                <input type="radio" name="hm" value="h"> Hombre
+                <input type="radio" name="hm" value="m"> Mujer
+                <input type="radio" name="hm" value="p"> Prefiero no decirlo
+                <p>¿Cual es tu personaje favorito?</p>
+                <input type="checkbox" name="Rick">Rick
+                <input type="checkbox" name="Daryl">Daryl
+                <input type="checkbox" name="Michonne">Michonne
+                <input type="checkbox" name="Carl">Carl
+                <input type="checkbox" name="Gleen">Gleen
+                <input type="checkbox" name="Maggie">Maggie
+                <input type="checkbox" name="Eugin">Eugin
+                <input type="checkbox" name="Shane">Shane
+                <input type="checkbox" name="Alpha">Alpha
+                <input type="checkbox" name="Beta">Beta
+                <input type="checkbox" name="El gobernador">El gobernador
+                <input type="checkbox" name="Nigan">Nigan
+                <input type="checkbox" name="Otro">Otro
+                <p>¿Que arma eligirias tu?</p>
+                <input type="checkbox" name="Bate">Bate con alambres
+                <input type="checkbox" name="Revólver">Revólver
+                <input type="checkbox" name="Ballesta">Ballesta
+                <input type="checkbox" name="Katana">Katana
+                <input type="checkbox" name="Arco">Arco
+                <input type="checkbox" name="Otra">Otra
+                <p>¿Que harias primero en un apocalipsis?</p>
+                <select name="menu">
+                  <option value="1"></option>
+                    <option value="2">Me escondo hasta que pase algo</option>
+                    <option value="3">Salgo a explorar</option>
+                    <option value="4">Reuno un grupo tan fuerte como SMR</option>
+                    <option value="5">Intentaria proteger solo a los que quiero</option>
+                    <option value="6">Otra cosa</option>
+                </select>
+                <p>Comentarios:<input type="checkbox" name="futbol">spoiler<br> 
+                    <textarea name="Comentarios:" cols="50" rows="4" placeholder="Escriba sus comenatrios"></textarea></p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                  </p>
+        </fieldset>
+      </div>
+      <div class="caja4">
+        <img src="./foto2.jpg" alt="foto" class="imagen2">
+      </div>
+      <footer>Álvaro Pop 2SMR AW</footer>
+</body>
+</html>
